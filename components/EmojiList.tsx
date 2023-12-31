@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { FlatList, Image, Platform, Pressable, StyleSheet } from "react-native";
+import { FlashList } from "@shopify/flash-list";
+import { Image, Platform, Pressable } from "react-native";
 
 export default function EmojiList({ onSelect, onCloseModal }) {
 	const [emoji] = useState([
@@ -12,11 +13,11 @@ export default function EmojiList({ onSelect, onCloseModal }) {
 	]);
 
 	return (
-		<FlatList
+		<FlashList
 			horizontal
+			estimatedItemSize={112}
 			showsHorizontalScrollIndicator={Platform.OS === "web"}
 			data={emoji}
-			contentContainerStyle={styles.listContainer}
 			renderItem={({ item, index }) => {
 				return (
 					<Pressable
@@ -25,26 +26,10 @@ export default function EmojiList({ onSelect, onCloseModal }) {
 							onCloseModal();
 						}}
 					>
-						<Image source={item} key={index} style={styles.image} />
+						<Image source={item} key={index} className="mr-5 w-28 h-28" />
 					</Pressable>
 				);
 			}}
 		/>
 	);
 }
-
-const styles = StyleSheet.create({
-	listContainer: {
-		borderTopRightRadius: 10,
-		borderTopLeftRadius: 10,
-		paddingHorizontal: 20,
-		flexDirection: "row",
-		alignItems: "center",
-		justifyContent: "space-between",
-	},
-	image: {
-		width: 100,
-		height: 100,
-		marginRight: 20,
-	},
-});
