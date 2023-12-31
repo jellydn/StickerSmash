@@ -25,6 +25,17 @@ Get started with StickerSmash in a few easy steps:
    bun install
    ```
 
+## 🛠 Tech Stack
+
+StickerSmash is built using a robust set of technologies:
+
+- **Expo & Expo Router**: For rapid development and easy navigation.
+- **NativeWind**: A utility-first CSS framework for React Native, enhancing the UI development. [Learn More](https://www.nativewind.dev/)
+- **TypeScript**: Ensuring type safety and enhancing developer experience.
+- **Biome**: A toolchain for web projects, aimed to provide functionalities to maintain them. [Biome](biomejs.dev) offers formatter and linter, usable via CLI and LSP.
+- **Bun**: Bun is a fast JavaScript all-in-one toolkit. It's a CLI tool, a bundler, and a dev server. [Learn More](https://bun.sh/)
+
+
 ## 🖥 Usage
 
 Launch the app with:
