@@ -32,7 +32,7 @@ StickerSmash is built using a robust set of technologies:
 - **Expo & Expo Router**: For rapid development and easy navigation.
 - **NativeWind**: A utility-first CSS framework for React Native, enhancing the UI development. [Learn More](https://www.nativewind.dev/)
 - **TypeScript**: Ensuring type safety and enhancing developer experience.
-- **Biome**: A toolchain for web projects, aimed to provide functionalities to maintain them. [Biome](biomejs.dev) offers formatter and linter, usable via CLI and LSP.
+- **Biome**: A toolchain for web projects, aimed to provide functionalities to maintain them. [Biome](https://biomejs.dev) offers formatter and linter, usable via CLI and LSP.
 - **Bun**: Bun is a fast JavaScript all-in-one toolkit. It's a CLI tool, a bundler, and a dev server. [Learn More](https://bun.sh/)
 
 
@@ -55,6 +55,10 @@ Enhance your understanding of Expo with these resources:
 - [Getting Started with Expo Go](https://docs.expo.dev/get-started/expo-go/)
 - [Designing App Icons](https://docs.expo.dev/develop/user-interface/app-icons/)
 - [Creating a Splash Screen](https://docs.expo.dev/develop/user-interface/splash-screen/)
+
+## Other Resources
+
+- [jellydn/shichida-memory-card](https://github.com/jellydn/shichida-memory-card): Shichida Memory Card is a dynamic and interactive app designed to enhance memory skills.
 
 ## 💡 Contributing
 
