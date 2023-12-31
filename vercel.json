@@ -1,5 +1,5 @@
 {
-	"buildCommand": "expo export -p web",
+	"buildCommand": "npx tailwindcss -i ./global.css -o ./node_modules/.cache/nativewind/global.css.web.css && expo export -p web",
 	"outputDirectory": "dist",
 	"devCommand": "expo",
 	"cleanUrls": true,
