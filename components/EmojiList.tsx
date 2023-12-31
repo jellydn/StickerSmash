@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { FlashList } from "@shopify/flash-list";
+import { useState } from "react";
 import { Image, Platform, Pressable } from "react-native";
 
 export default function EmojiList({ onSelect, onCloseModal }) {
