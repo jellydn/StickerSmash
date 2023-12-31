@@ -1,0 +1,50 @@
+{
+	"name": "stickersmash",
+	"version": "1.0.0",
+	"private": true,
+	"main": "expo-router/entry",
+	"scripts": {
+		"android": "expo start --android",
+		"format": "bunx @biomejs/biome check --apply .",
+		"postinstall": "npx husky install",
+		"ios": "expo start --ios",
+		"start": "expo start",
+		"typecheck": "tsc --noEmit",
+		"web": "expo start --web"
+	},
+	"nano-staged": {
+		"*.{js,ts,json,md}": "biome check --apply"
+	},
+	"dependencies": {
+		"@expo/vector-icons": "^13.0.0",
+		"@expo/webpack-config": "^19.0.0",
+		"@types/react": "~18.2.46",
+		"dom-to-image": "^2.6.0",
+		"expo": "next",
+		"expo-constants": "~15.4.2",
+		"expo-image-picker": "~14.7.1",
+		"expo-linking": "~6.2.1",
+		"expo-media-library": "~15.9.1",
+		"expo-router": "~3.4.1",
+		"expo-status-bar": "~1.11.1",
+		"expo-updates": "~0.24.5",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-native": "0.73.1",
+		"react-native-gesture-handler": "~2.14.0",
+		"react-native-reanimated": "~3.6.1",
+		"react-native-safe-area-context": "4.7.4",
+		"react-native-screens": "~3.27.0",
+		"react-native-view-shot": "3.8.0",
+		"react-native-web": "~0.19.6"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.23.7",
+		"@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+		"@biomejs/biome": "1.4.1",
+		"@types/dom-to-image": "^2.6.7",
+		"husky": "^8.0.3",
+		"nano-staged": "^0.8.0",
+		"typescript": "^5.3.3"
+	}
+}
