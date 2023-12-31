@@ -1,6 +1,8 @@
 stickersmash
+dunghd
 domtoimage
 collapsable
+nativewind
 Pressable
 bunx
 biomejs
