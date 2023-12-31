@@ -58,7 +58,9 @@ Enhance your understanding of Expo with these resources:
 
 ## Other Resources
 
+- [![Build &amp; Learn with IT Man: Expo Essentials with StickerSmash [Vietnamese]](https://i.ytimg.com/vi/aoBDJuN0V2I/mqdefault.jpg)](https://www.youtube.com/watch?v=aoBDJuN0V2I)
 - [jellydn/shichida-memory-card](https://github.com/jellydn/shichida-memory-card): Shichida Memory Card is a dynamic and interactive app designed to enhance memory skills.
+
 
 ## 💡 Contributing
 
