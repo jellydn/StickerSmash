@@ -16,7 +16,7 @@
     "*.{js,ts,json,md}": "biome check --apply"
   },
   "dependencies": {
-    "@expo/vector-icons": "^13.0.0",
+    "@expo/vector-icons": "^14.0.0",
     "@expo/webpack-config": "^19.0.0",
     "@shopify/flash-list": "1.6.3",
     "@types/react": "~18.2.46",
