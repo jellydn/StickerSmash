@@ -18,7 +18,7 @@
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
     "@expo/webpack-config": "^19.0.0",
-    "@shopify/flash-list": "1.6.3",
+    "@shopify/flash-list": "1.7.1",
     "@types/react": "~18.2.46",
     "dom-to-image": "^2.6.0",
     "expo": "next",
